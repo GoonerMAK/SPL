@@ -14,29 +14,58 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-image: url(/Images/todd-kent-178j8tJrNlc-unsplash.jpg);
+    background-image: url(/Images/todd-kent-178j8tJrNlc-unsplash.jpg);
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-color: rgb(0, 136, 169, 1);
-    height: 155vh;
-}
+    min-height: 150vh;
+    height: auto;
+    margin-top: 2rem;
+
+}   
+
+
 
 .container{
     position: relative;
-    max-width: 50rem;
+    max-width: 93rem;
     width: 100%;
     background: #fff;
     border-radius: 1.25rem;
+    border-style: hiddne;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 4rem;
+
+    min-height: 80rem;
+    /* margin-left: 1rem; */
 }
 
 .container .form{
-    padding: 60px;
+    padding: 2rem;  
 }
 
+
+img{
+    position: relative;
+    height: 30rem;
+    width: 60rem;
+}
+
+
+.block
+{
+    display: flex;
+}
+
+
+#image-show
+{
+    width: 90%;
+}
+
+
 .title{
-    color: white;
+    color: black;
     display: flex;  
     align-items: center;
     justify-content: center;
@@ -47,21 +76,107 @@ body{
 }
 
 
-.information
+p{
+    padding-bottom: 1rem;
+}
+
+
+
+#reviews
 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}   
-
-p{
-    padding-bottom: 1.5rem;
 }
 
 
-.information .line
+#review-text
 {
+    font-size: 1.6rem; 
+}
+
+
+.review-box
+{
+    width: 90%;
+    background: aliceblue;
+    border-radius: 1.25rem;
+    border-color: black;
+    border-style: solid;
+    
+    padding: 1rem;
+    margin-top: 1rem;
+
+    /* margin-left: 3rem; */
+      
+}
+
+
+
+
+/* The second block */
+
+.results
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content: center;
+    margin : 1rem 1rem;
+}
+
+
+.results .currency
+{
+    font-weight: bold;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.results .amount
+{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.results .location
+{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.results .apartment
+{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+
+.results .amenities
+{
+    color: brown;
     font-size: 1.6rem;
 }
 
+.results .beds-baths
+{
+    font-size: 1.6rem;
+    padding-right: 1.3rem;
+}
+
+.results .area
+{
+    font-size: 1.6rem;
+    padding-right: 1rem;
+}
+
+.results .description
+{
+    font-size: 1.3rem;
+}
+
+.margin-top-2rem
+{
+    margin-top: 2rem;
+}
