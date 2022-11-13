@@ -45,24 +45,40 @@ body{
 }
 
 
-img{
-    position: relative;
-    height: 30rem;
-    width: 60rem;
-}
-
-
 .block
 {
     display: flex;
 }
 
 
-#image-show
-{
-    width: 90%;
+/* After the Block class */
+
+img{
+    position: relative;
+    height: 30rem;
+    width: 55rem;
 }
 
+
+#image-show
+{
+    width: 60%;
+}
+
+.swiper
+{
+    height: fit-content;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next
+{
+    color: white;
+}
+
+.swiper .swiper-pagination-bullet-active
+{
+    background: white;
+}
 
 .title{
     color: black;
