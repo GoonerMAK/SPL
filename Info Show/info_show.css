@@ -143,6 +143,7 @@ p{
 }
 
 
+
 .results .currency
 {
     font-weight: bold;
@@ -191,6 +192,39 @@ p{
 {
     font-size: 1.3rem;
 }
+
+
+
+/* Buttons */
+
+.btn{
+    width: 100%;
+    margin-top: 0rem;
+    display: inline-block;
+    padding: 0.8rem 3.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: whitesmoke;
+    background: rgb(0, 136, 169, 1);
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.btn:hover{
+    background-color: rgb(3, 113, 140);
+}
+
+.buttons .btn
+{
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
 
 .margin-top-2rem
 {
