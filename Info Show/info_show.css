@@ -129,6 +129,40 @@ p{
 }
 
 
+.textarea 
+{
+    background: aliceblue;
+    border-radius: 1.25rem;
+    border-color: black;
+    border-style: solid;
+    
+    padding: 1rem;
+    margin-top: 2rem;
+
+
+    font-size: 1rem;
+    line-height: 1;
+    width: 28rem;
+    height: 6rem;
+    transition: all .2s;
+}
+  
+.textarea:hover 
+{
+    cursor: pointer;
+    background-color:azure;
+}
+  
+.textarea:focus 
+{
+    cursor: text;
+    color: black;
+    background-color: aliceblue;
+    border-color: red;
+}
+  
+
+
 
 
 /* The second block */
