@@ -25,6 +25,17 @@ body{
 }   
 
 
+.title{
+    color: black;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
 
 .container{
     position: relative;
@@ -32,7 +43,7 @@ body{
     width: 100%;
     background: #fff;
     border-radius: 1.25rem;
-    border-style: hiddne;
+    border-style: hidden;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 4rem;
 
@@ -42,6 +53,8 @@ body{
 
 .container .form{
     padding: 2rem;  
+    display: flex;  
+    align-items: center;
 }
 
 
@@ -78,17 +91,6 @@ img{
 .swiper .swiper-pagination-bullet-active
 {
     background: white;
-}
-
-.title{
-    color: black;
-    display: flex;  
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    font-size: 50px;
-    font-weight: 600;
-    padding-bottom: 2rem;
 }
 
 
